@@ -19,10 +19,10 @@ function Header(){
  [&>*]:p-2 *:not-last:border-r-2 *:hover:bg-(--lbgc) ">
 
 
-    <NavLink to="/"
+    <NavLink to=""
     >Home</NavLink>
 
-    <NavLink to="/click-counter"
+    <NavLink to="click-counter"
     >Click-Counter</NavLink>
 
     <NavLink to="pass-gen">

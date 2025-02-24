@@ -9,12 +9,12 @@ import * as Compos from './components/index'
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route path="/vite-project/" element={<Layout/>}>
-            <Route path='/vite-project/' element={<Compos.Home/>}/>
-            <Route path="/vite-project/*" element={<Navigate to="/"/>}/>
-            <Route path="/vite-project/pass-gen" element={<Compos.PassGen />} />   
-            <Route path="/vite-project/click-counter" element={<Compos.ClickCounter/>}/>
-            <Route path="/vite-project/todos" element={<Compos.ToDo/>}/>
+        <Route path="/vite-project" element={<Layout/>}>
+            <Route path='' element={<Compos.Home/>}/>
+            <Route path="*" element={<Navigate to="/vite-project"/>}/>
+            <Route path="pass-gen" element={<Compos.PassGen />} />   
+            <Route path="click-counter" element={<Compos.ClickCounter/>}/>
+            <Route path="todos" element={<Compos.ToDo/>}/>
         </Route>
     )
 )
